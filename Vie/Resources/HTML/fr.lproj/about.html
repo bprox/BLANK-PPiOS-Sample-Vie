@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Copyright 2017 PreEmptive Solutions, LLC -->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../normalize.min.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+</head>
+<body>
+    <h1>Vie, c'est quoi ?</h1>
+    <p>Vie est une application qui permet de jouer au Jeu de la Vie de John Conway. On peut générer des grilles aléatoires ou choisir parmis presque 1000 motifs disponibles.</p>
+
+    <h1>Le "jeu"</h1>
+    <p>Le Jeu de la Vie est un jeu sans joueur, ce qui veut dire que son évolution est uniquement determinée par son état initial. Le joueur intéragit avec le Jeu de la Vie en créant une grille initiale et en observant son évolution.</p>
+
+    <h2>John Conway</h2>
+    <p>John Horton Conway est un mathématicien britannique. Extrêmement prolifique, il s'est penché sur les théories des groupes finis, des n&oelig;uds, des nombres, des jeux et du codage. Il est actuellement professeur de mathématiques à l'université de Princeton.</p>
+    <p class="legend">De Wikipedia</p>
+
+    <h2>Règles</h2>
+    <p>Les règles sont plutôt simples, à chaque tour :</p>
+    <ul>
+        <li>chaque cellule vivante entourée de 2 ou 3 cellules voisines survit</li>
+        <li>chaque cellule vivante entourée de moins de 2 ou plus de 3 cellules meurt (de sous-peuplement ou de surpeuplement, respectivement)</li>
+        <li>chaque cellule morte entourée de exactement 3 cellules voisines est rescusitée </li>
+    </ul>
+    <p>La partie continue de tour en tour jusqu'à ce qu'il n'y ait plus que des structures stables ou des oscillateurs.</p>
+
+    <h2>Exemple</h2>
+    <img src="../cycle-1@2x.png" />
+    <p class="caption">Grille initiale</p>
+    <p>La cellule en haut à droite va mourir de sous-peuplement parcequ'elle n'a qu'une seule voisine. La cellule en bas à gauche va mourir pour la même raison. La cellule du milieu va survivre grâce à ses 2 voisines.</p>
+    <p>Les cellules d'en haut à gauche et en bas à droite ne seront pas rescusitées parcequ'elles n'ont qu'une voisine chacune. La cellule morte du milieu sera rescusitée parcequ'elle a exactement 3 voisines.</p>
+    <img src="../cycle-2@2x.png" />
+    <p class="caption">La grille après un cycle</p>
+
+    <h2>Motifs</h2>
+    <p>L'application vient chargée avec presque 1000 motifs. Un motif est une grille initiale qui évolue de manière intéressante. Il y a plusieurs familles de motifs : oscillateurs, structures stables, vaisseaux, etc.</p>
+    <p>Tous les motifs disponibles dans Vie viennent du site <a href="http://www.conwaylife.com">www.conwaylife.com (en anglais)</a>, qui est un site riche en informations si vous désirez en savoir plus.</p>
+
+    <h1>Auteur</h1>
+    <p>Mon nom est Fabien Warniez, je suis un ingénieur logiciel et je vis à Vancouver, Canada. J'ai créé cette application de toute pièce, avec l'aide de ma femme Katrina Warniez qui a conçu l'interface graphique.</p>
+
+    <h2>Pourquoi cette application ?</h2>
+    <p>J'ai créé cette application pour étendre mes compétences en développement iOS. J'ai choisi le Jeu de la Vie parceque je trouve l'idée ainsi que l'infinité de combinaisons fascinantes, surtout quand on réalise la simplicité des règles du jeu.</p>
+
+    <h2>Open Source</h2>
+    <p>Le code source de cette version obfusquée du projet, maintenu par PreEmptive Solutions, LLC, est disponible sur <a href="https://github.com/preemptive/PPiOS-Sample-Vie">GitHub</a>.</p>
+
+</body>
+</html>

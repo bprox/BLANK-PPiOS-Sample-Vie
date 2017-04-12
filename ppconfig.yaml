@@ -1,0 +1,12 @@
+# Copyright 2017 PreEmptive Solutions, LLC
+control-flow:
+  level: high
+  branch-injection:
+    block-percent: 50
+  defaults:
+    exclude:
+      - "-[FWGameViewController calculateNextCycle]"
+      - "-[FWGameViewController liveCellsGroupedByAgeFromGameMatrix:]"
+      - "+[FWGameViewController ageGroupFromAge:]"
+      - "-[FWGameViewController generateInitialCellsWithColumns:rows:percentageOfLiveCells:]"
+      - "[FWRandomNumberGenerator "
