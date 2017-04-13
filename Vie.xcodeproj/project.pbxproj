@@ -96,6 +96,8 @@
 		84E785361E9F1B4A00CA6C53 /* FWAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD83F1A46518921715C6A8 /* FWAboutViewController.xib */; };
 		84E785371E9F1B4A00CA6C53 /* FWSavedGamePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD87FD288D97A5A1544EC4 /* FWSavedGamePickerViewController.xib */; };
 		84E785381E9F1B4A00CA6C53 /* FWPatternPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD8134B1159BEAFE694FC5 /* FWPatternPickerViewController.xib */; };
+		84E785901E9F227700CA6C53 /* Apply Renaming to Sources-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E7858E1E9F227700CA6C53 /* Apply Renaming to Sources-Info.plist */; };
+		84E785911E9F227700CA6C53 /* Build and Analyze Vie-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E7858F1E9F227700CA6C53 /* Build and Analyze Vie-Info.plist */; };
 		A6BD8044BFE801A0B7B5B657 /* FWAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD83F1A46518921715C6A8 /* FWAboutViewController.xib */; };
 		A6BD804BEB2C55446EB5C794 /* FWQuickPlayMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD89B6678BDA714B57E7F8 /* FWQuickPlayMenuController.xib */; };
 		A6BD807F5C8B62ED6C6AD727 /* FWPatternPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD8134B1159BEAFE694FC5 /* FWPatternPickerViewController.xib */; };
@@ -176,6 +178,8 @@
 		5FF3D86719B29AEB00F97192 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		84E7853C1E9F1B4A00CA6C53 /* Build and Analyze Vie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Build and Analyze Vie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E7858B1E9F1DD700CA6C53 /* Apply Renaming to Vie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apply Renaming to Vie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E7858E1E9F227700CA6C53 /* Apply Renaming to Sources-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Apply Renaming to Sources-Info.plist"; sourceTree = "<group>"; };
+		84E7858F1E9F227700CA6C53 /* Build and Analyze Vie-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Build and Analyze Vie-Info.plist"; sourceTree = "<group>"; };
 		A6BD808AFF54817340C0A620 /* FWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWMainViewController.h; sourceTree = "<group>"; };
 		A6BD809C09E771E503F8B86F /* UIImage+FWConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FWConvenience.h"; sourceTree = "<group>"; };
 		A6BD80B591A06737518F65E8 /* FWSavedGameCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWSavedGameCollectionViewCell.h; sourceTree = "<group>"; };
@@ -358,6 +362,8 @@
 		46330FA018E2964100E5C7EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84E7858E1E9F227700CA6C53 /* Apply Renaming to Sources-Info.plist */,
+				84E7858F1E9F227700CA6C53 /* Build and Analyze Vie-Info.plist */,
 				46330FA118E2964100E5C7EC /* Vie-Info.plist */,
 				46330FA518E2964100E5C7EC /* main.m */,
 				46330FA718E2964100E5C7EC /* Vie-Prefix.pch */,
@@ -656,6 +662,7 @@
 				46844F7D1AED8ADC00E73FB7 /* cycle-2@2x.png in Resources */,
 				469E76861ABFA22400319877 /* FWLaunchScreen.xib in Resources */,
 				464EA5641AEDEF0400E08B8E /* about.html in Resources */,
+				84E785911E9F227700CA6C53 /* Build and Analyze Vie-Info.plist in Resources */,
 				46844F7C1AED8ADC00E73FB7 /* cycle-1@2x.png in Resources */,
 				A6BD804BEB2C55446EB5C794 /* FWQuickPlayMenuController.xib in Resources */,
 				A6BD8122C4087A44E5F2683A /* FWEditSavedGameViewController.xib in Resources */,
@@ -664,6 +671,7 @@
 				464EA5631AEDEDD100E08B8E /* normalize.min.css in Resources */,
 				46844F791AED4FCA00E73FB7 /* style.css in Resources */,
 				A6BD8044BFE801A0B7B5B657 /* FWAboutViewController.xib in Resources */,
+				84E785901E9F227700CA6C53 /* Apply Renaming to Sources-Info.plist in Resources */,
 				A6BD889B5DA300DFCDC3A427 /* FWSavedGamePickerViewController.xib in Resources */,
 				A6BD807F5C8B62ED6C6AD727 /* FWPatternPickerViewController.xib in Resources */,
 			);
@@ -999,7 +1007,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
-				INFOPLIST_FILE = "Build and Analyze Vie-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Vie/Build and Analyze Vie-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
@@ -1023,7 +1031,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
-				INFOPLIST_FILE = "Build and Analyze Vie-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Vie/Build and Analyze Vie-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
@@ -1046,7 +1054,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
-				INFOPLIST_FILE = "Apply Renaming to Sources-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Vie/Apply Renaming to Sources-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
@@ -1070,7 +1078,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
-				INFOPLIST_FILE = "Apply Renaming to Sources-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Vie/Apply Renaming to Sources-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
