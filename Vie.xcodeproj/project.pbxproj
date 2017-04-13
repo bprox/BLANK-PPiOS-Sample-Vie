@@ -76,145 +76,6 @@
 		B3935CBEDD0FBE03D628425C /* FWGameSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935D54FA0ACE6E624116C7 /* FWGameSpeed.m */; };
 		B3935E634DE9C7C44E3480CA /* FWSpeedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935764090B6029FD2384A4 /* FWSpeedTile.m */; };
 		B3935FA6823798258F5203A1 /* patterns.dat in Resources */ = {isa = PBXBuildFile; fileRef = B3935125771F4A068BE99A04 /* patterns.dat */; };
-		D002909E1E675A1B0068EF2F /* ppconfig.yaml in Resources */ = {isa = PBXBuildFile; fileRef = D002909D1E675A1B0068EF2F /* ppconfig.yaml */; };
-		D0E9190D1E5CCCC0004BF1F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46330FA518E2964100E5C7EC /* main.m */; };
-		D0E9190E1E5CCCC0004BF1F5 /* FWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46330FA918E2964100E5C7EC /* FWAppDelegate.m */; };
-		D0E9190F1E5CCCC0004BF1F5 /* FWGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD81239C5465908CDDAA83 /* FWGameViewController.m */; };
-		D0E919101E5CCCC0004BF1F5 /* FWSavedGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F29805719B29ED8006C4C91 /* FWSavedGameModel.m */; };
-		D0E919111E5CCCC0004BF1F5 /* FWCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD838C05C9C56987CA9F58 /* FWCellModel.m */; };
-		D0E919121E5CCCC0004BF1F5 /* FWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8F008B945759E90FEF5C /* FWMainViewController.m */; };
-		D0E919131E5CCCC0004BF1F5 /* FWBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8B6BF68F5AB7427B5296 /* FWBoardView.m */; };
-		D0E919141E5CCCC0004BF1F5 /* FWBoardSizeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8EEE1A070EFC4A7E8FA7 /* FWBoardSizeModel.m */; };
-		D0E919151E5CCCC0004BF1F5 /* FWColorSchemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8A8C8A24BC057374AE68 /* FWColorSchemeModel.m */; };
-		D0E919161E5CCCC0004BF1F5 /* FWRandomNumberGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD81E0EA6F40B6B7C5C34D /* FWRandomNumberGenerator.m */; };
-		D0E919171E5CCCC0004BF1F5 /* FWSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD84EC2D10EFF62891DCBB /* FWSettingsManager.m */; };
-		D0E919181E5CCCC0004BF1F5 /* FWUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD82E63F111524CAD13825 /* FWUserModel.m */; };
-		D0E919191E5CCCC0004BF1F5 /* UIColor+FWAppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD87C92FF24586F6F1DC83 /* UIColor+FWAppColors.m */; };
-		D0E9191A1E5CCCC0004BF1F5 /* FWPatternModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8C08B7E4AF2AD65E3BF5 /* FWPatternModel.m */; };
-		D0E9191B1E5CCCC0004BF1F5 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F29805319B29BB3006C4C91 /* DataModel.xcdatamodeld */; };
-		D0E9191C1E5CCCC0004BF1F5 /* FWPatternLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935AB2A86E92BA390F4D1C /* FWPatternLoader.m */; };
-		D0E9191D1E5CCCC0004BF1F5 /* FWRleReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935D2F5AFB88B89F1D9D90 /* FWRleReader.m */; };
-		D0E9191E1E5CCCC0004BF1F5 /* UIFont+FWAppFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = B39354FA427EDDAD37D20935 /* UIFont+FWAppFonts.m */; };
-		D0E9191F1E5CCCC0004BF1F5 /* UIView+FWConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B39350255D4CEE63ED6B6129 /* UIView+FWConvenience.m */; };
-		D0E919201E5CCCC0004BF1F5 /* FWGameSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39359E3F8913EF80F49CF55 /* FWGameSettingsViewController.m */; };
-		D0E919211E5CCCC0004BF1F5 /* FWColorTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B39357A3B12A8B057AAD77DE /* FWColorTile.m */; };
-		D0E919221E5CCCC0004BF1F5 /* FWSizeTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B393527A37CC8A72862273CC /* FWSizeTile.m */; };
-		D0E919231E5CCCC0004BF1F5 /* FWReflectiveTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B393540E31D6591EC0821C6E /* FWReflectiveTile.m */; };
-		D0E919241E5CCCC0004BF1F5 /* FWGameSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935D54FA0ACE6E624116C7 /* FWGameSpeed.m */; };
-		D0E919251E5CCCC0004BF1F5 /* FWSpeedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935764090B6029FD2384A4 /* FWSpeedTile.m */; };
-		D0E919261E5CCCC0004BF1F5 /* FWTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935B98F73C784DF9D763FB /* FWTitleBar.m */; };
-		D0E919271E5CCCC0004BF1F5 /* FWGameToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935A97627E0C51427F63AF /* FWGameToolbar.m */; };
-		D0E919281E5CCCC0004BF1F5 /* FWMenuTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B39353334670759C86428AF0 /* FWMenuTile.m */; };
-		D0E919291E5CCCC0004BF1F5 /* FWPatternCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8A9FE5A6088AB496D9F1 /* FWPatternCollectionViewCell.m */; };
-		D0E9192A1E5CCCC0004BF1F5 /* FWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD81BEE06639BB968E11BC /* FWTextField.m */; };
-		D0E9192B1E5CCCC0004BF1F5 /* UIScrollView+FWConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8676030DA80E8A98A983 /* UIScrollView+FWConvenience.m */; };
-		D0E9192C1E5CCCC0004BF1F5 /* FWDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD868DC9D23C12FFB0A2C4 /* FWDataManager.m */; };
-		D0E9192D1E5CCCC0004BF1F5 /* FWPatternManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD89C697119D06D0A3547D /* FWPatternManager.m */; };
-		D0E9192E1E5CCCC0004BF1F5 /* FWSaveGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD87058C883C2F11C87CE7 /* FWSaveGameViewController.m */; };
-		D0E9192F1E5CCCC0004BF1F5 /* UIImage+FWConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8804CB45858318030438 /* UIImage+FWConvenience.m */; };
-		D0E919301E5CCCC0004BF1F5 /* FWSavedGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD85951BF04312AB753E68 /* FWSavedGameManager.m */; };
-		D0E919311E5CCCC0004BF1F5 /* FWSavedGameCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD81D67574471A4DCE5B21 /* FWSavedGameCollectionViewCell.m */; };
-		D0E919321E5CCCC0004BF1F5 /* FWQuickPlayMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8371513E20C29A91C1C4 /* FWQuickPlayMenuViewController.m */; };
-		D0E919331E5CCCC0004BF1F5 /* FWEditSavedGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8DFA99B9F370BEA463E6 /* FWEditSavedGameViewController.m */; };
-		D0E919341E5CCCC0004BF1F5 /* FWDeleteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD850BF525AE5907310CBB /* FWDeleteButton.m */; };
-		D0E919351E5CCCC0004BF1F5 /* FWLaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8E598D196F2CEE8BA33A /* FWLaunchScreenViewController.m */; };
-		D0E919361E5CCCC0004BF1F5 /* FWAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8C834C55A943F824AAB0 /* FWAboutViewController.m */; };
-		D0E919371E5CCCC0004BF1F5 /* FWSavedGamePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD831A82F8AB73519759E1 /* FWSavedGamePickerViewController.m */; };
-		D0E919381E5CCCC0004BF1F5 /* FWPatternPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD878A901EAAF0A2924183 /* FWPatternPickerViewController.m */; };
-		D0E919391E5CCCC0004BF1F5 /* FWB3S23.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8D7485D6463088A1500F /* FWB3S23.m */; };
-		D0E9193B1E5CCCC0004BF1F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468562E01AF1CA7C00DC6B7C /* Security.framework */; };
-		D0E9193C1E5CCCC0004BF1F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468562DE1AF1CA7300DC6B7C /* SystemConfiguration.framework */; };
-		D0E9193D1E5CCCC0004BF1F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF3D86719B29AEB00F97192 /* CoreData.framework */; };
-		D0E9193E1E5CCCC0004BF1F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46330F9B18E2964100E5C7EC /* CoreGraphics.framework */; };
-		D0E9193F1E5CCCC0004BF1F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46330F9D18E2964100E5C7EC /* UIKit.framework */; };
-		D0E919401E5CCCC0004BF1F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46330F9918E2964100E5C7EC /* Foundation.framework */; };
-		D0E919421E5CCCC0004BF1F5 /* FWSaveGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 463BAF1A1AAD2A7B00F9CC10 /* FWSaveGameViewController.xib */; };
-		D0E919431E5CCCC0004BF1F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46330FAB18E2964100E5C7EC /* Images.xcassets */; };
-		D0E919441E5CCCC0004BF1F5 /* patterns.dat in Resources */ = {isa = PBXBuildFile; fileRef = B3935125771F4A068BE99A04 /* patterns.dat */; };
-		D0E919451E5CCCC0004BF1F5 /* FWGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB4510D19B542EC0040F524 /* FWGameViewController.xib */; };
-		D0E919461E5CCCC0004BF1F5 /* FWGameSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B393542D07FDFB318986B555 /* FWGameSettingsViewController.xib */; };
-		D0E919471E5CCCC0004BF1F5 /* cycle-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46844F7B1AED8ADC00E73FB7 /* cycle-2@2x.png */; };
-		D0E919481E5CCCC0004BF1F5 /* FWLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 469E76851ABFA22400319877 /* FWLaunchScreen.xib */; };
-		D0E919491E5CCCC0004BF1F5 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 464EA5661AEDEF0400E08B8E /* about.html */; };
-		D0E9194A1E5CCCC0004BF1F5 /* cycle-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46844F7A1AED8ADC00E73FB7 /* cycle-1@2x.png */; };
-		D0E9194B1E5CCCC0004BF1F5 /* FWQuickPlayMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD89B6678BDA714B57E7F8 /* FWQuickPlayMenuController.xib */; };
-		D0E9194C1E5CCCC0004BF1F5 /* FWEditSavedGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD84407110B7542EC437A6 /* FWEditSavedGameViewController.xib */; };
-		D0E9194D1E5CCCC0004BF1F5 /* FWLaunchScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD8D54F5A43C9B1B468EB5 /* FWLaunchScreenViewController.xib */; };
-		D0E9194E1E5CCCC0004BF1F5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46DFD8FB1ABFD39000AD8E43 /* Localizable.strings */; };
-		D0E9194F1E5CCCC0004BF1F5 /* normalize.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 464EA5621AEDEDD100E08B8E /* normalize.min.css */; };
-		D0E919501E5CCCC0004BF1F5 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A6BD8FB065F12CE98CAFE2ED /* style.css */; };
-		D0E919511E5CCCC0004BF1F5 /* FWAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD83F1A46518921715C6A8 /* FWAboutViewController.xib */; };
-		D0E919521E5CCCC0004BF1F5 /* FWSavedGamePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD87FD288D97A5A1544EC4 /* FWSavedGamePickerViewController.xib */; };
-		D0E919531E5CCCC0004BF1F5 /* FWPatternPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD8134B1159BEAFE694FC5 /* FWPatternPickerViewController.xib */; };
-		D0E919AB1E5CCE8E004BF1F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46330FA518E2964100E5C7EC /* main.m */; };
-		D0E919AC1E5CCE8E004BF1F5 /* FWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46330FA918E2964100E5C7EC /* FWAppDelegate.m */; };
-		D0E919AD1E5CCE8E004BF1F5 /* FWGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD81239C5465908CDDAA83 /* FWGameViewController.m */; };
-		D0E919AE1E5CCE8E004BF1F5 /* FWSavedGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F29805719B29ED8006C4C91 /* FWSavedGameModel.m */; };
-		D0E919AF1E5CCE8E004BF1F5 /* FWCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD838C05C9C56987CA9F58 /* FWCellModel.m */; };
-		D0E919B01E5CCE8E004BF1F5 /* FWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8F008B945759E90FEF5C /* FWMainViewController.m */; };
-		D0E919B11E5CCE8E004BF1F5 /* FWBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8B6BF68F5AB7427B5296 /* FWBoardView.m */; };
-		D0E919B21E5CCE8E004BF1F5 /* FWBoardSizeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8EEE1A070EFC4A7E8FA7 /* FWBoardSizeModel.m */; };
-		D0E919B31E5CCE8E004BF1F5 /* FWColorSchemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8A8C8A24BC057374AE68 /* FWColorSchemeModel.m */; };
-		D0E919B41E5CCE8E004BF1F5 /* FWRandomNumberGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD81E0EA6F40B6B7C5C34D /* FWRandomNumberGenerator.m */; };
-		D0E919B51E5CCE8E004BF1F5 /* FWSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD84EC2D10EFF62891DCBB /* FWSettingsManager.m */; };
-		D0E919B61E5CCE8E004BF1F5 /* FWUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD82E63F111524CAD13825 /* FWUserModel.m */; };
-		D0E919B71E5CCE8E004BF1F5 /* UIColor+FWAppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD87C92FF24586F6F1DC83 /* UIColor+FWAppColors.m */; };
-		D0E919B81E5CCE8E004BF1F5 /* FWPatternModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8C08B7E4AF2AD65E3BF5 /* FWPatternModel.m */; };
-		D0E919B91E5CCE8E004BF1F5 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F29805319B29BB3006C4C91 /* DataModel.xcdatamodeld */; };
-		D0E919BA1E5CCE8E004BF1F5 /* FWPatternLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935AB2A86E92BA390F4D1C /* FWPatternLoader.m */; };
-		D0E919BB1E5CCE8E004BF1F5 /* FWRleReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935D2F5AFB88B89F1D9D90 /* FWRleReader.m */; };
-		D0E919BC1E5CCE8E004BF1F5 /* UIFont+FWAppFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = B39354FA427EDDAD37D20935 /* UIFont+FWAppFonts.m */; };
-		D0E919BD1E5CCE8E004BF1F5 /* UIView+FWConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B39350255D4CEE63ED6B6129 /* UIView+FWConvenience.m */; };
-		D0E919BE1E5CCE8E004BF1F5 /* FWGameSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39359E3F8913EF80F49CF55 /* FWGameSettingsViewController.m */; };
-		D0E919BF1E5CCE8E004BF1F5 /* FWColorTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B39357A3B12A8B057AAD77DE /* FWColorTile.m */; };
-		D0E919C01E5CCE8E004BF1F5 /* FWSizeTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B393527A37CC8A72862273CC /* FWSizeTile.m */; };
-		D0E919C11E5CCE8E004BF1F5 /* FWReflectiveTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B393540E31D6591EC0821C6E /* FWReflectiveTile.m */; };
-		D0E919C21E5CCE8E004BF1F5 /* FWGameSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935D54FA0ACE6E624116C7 /* FWGameSpeed.m */; };
-		D0E919C31E5CCE8E004BF1F5 /* FWSpeedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935764090B6029FD2384A4 /* FWSpeedTile.m */; };
-		D0E919C41E5CCE8E004BF1F5 /* FWTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935B98F73C784DF9D763FB /* FWTitleBar.m */; };
-		D0E919C51E5CCE8E004BF1F5 /* FWGameToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B3935A97627E0C51427F63AF /* FWGameToolbar.m */; };
-		D0E919C61E5CCE8E004BF1F5 /* FWMenuTile.m in Sources */ = {isa = PBXBuildFile; fileRef = B39353334670759C86428AF0 /* FWMenuTile.m */; };
-		D0E919C71E5CCE8E004BF1F5 /* FWPatternCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8A9FE5A6088AB496D9F1 /* FWPatternCollectionViewCell.m */; };
-		D0E919C81E5CCE8E004BF1F5 /* FWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD81BEE06639BB968E11BC /* FWTextField.m */; };
-		D0E919C91E5CCE8E004BF1F5 /* UIScrollView+FWConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8676030DA80E8A98A983 /* UIScrollView+FWConvenience.m */; };
-		D0E919CA1E5CCE8E004BF1F5 /* FWDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD868DC9D23C12FFB0A2C4 /* FWDataManager.m */; };
-		D0E919CB1E5CCE8E004BF1F5 /* FWPatternManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD89C697119D06D0A3547D /* FWPatternManager.m */; };
-		D0E919CC1E5CCE8E004BF1F5 /* FWSaveGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD87058C883C2F11C87CE7 /* FWSaveGameViewController.m */; };
-		D0E919CD1E5CCE8E004BF1F5 /* UIImage+FWConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8804CB45858318030438 /* UIImage+FWConvenience.m */; };
-		D0E919CE1E5CCE8E004BF1F5 /* FWSavedGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD85951BF04312AB753E68 /* FWSavedGameManager.m */; };
-		D0E919CF1E5CCE8E004BF1F5 /* FWSavedGameCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD81D67574471A4DCE5B21 /* FWSavedGameCollectionViewCell.m */; };
-		D0E919D01E5CCE8E004BF1F5 /* FWQuickPlayMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8371513E20C29A91C1C4 /* FWQuickPlayMenuViewController.m */; };
-		D0E919D11E5CCE8E004BF1F5 /* FWEditSavedGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8DFA99B9F370BEA463E6 /* FWEditSavedGameViewController.m */; };
-		D0E919D21E5CCE8E004BF1F5 /* FWDeleteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD850BF525AE5907310CBB /* FWDeleteButton.m */; };
-		D0E919D31E5CCE8E004BF1F5 /* FWLaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8E598D196F2CEE8BA33A /* FWLaunchScreenViewController.m */; };
-		D0E919D41E5CCE8E004BF1F5 /* FWAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8C834C55A943F824AAB0 /* FWAboutViewController.m */; };
-		D0E919D51E5CCE8E004BF1F5 /* FWSavedGamePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD831A82F8AB73519759E1 /* FWSavedGamePickerViewController.m */; };
-		D0E919D61E5CCE8E004BF1F5 /* FWPatternPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD878A901EAAF0A2924183 /* FWPatternPickerViewController.m */; };
-		D0E919D71E5CCE8E004BF1F5 /* FWB3S23.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BD8D7485D6463088A1500F /* FWB3S23.m */; };
-		D0E919D91E5CCE8E004BF1F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468562E01AF1CA7C00DC6B7C /* Security.framework */; };
-		D0E919DA1E5CCE8E004BF1F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468562DE1AF1CA7300DC6B7C /* SystemConfiguration.framework */; };
-		D0E919DB1E5CCE8E004BF1F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF3D86719B29AEB00F97192 /* CoreData.framework */; };
-		D0E919DC1E5CCE8E004BF1F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46330F9B18E2964100E5C7EC /* CoreGraphics.framework */; };
-		D0E919DD1E5CCE8E004BF1F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46330F9D18E2964100E5C7EC /* UIKit.framework */; };
-		D0E919DE1E5CCE8E004BF1F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46330F9918E2964100E5C7EC /* Foundation.framework */; };
-		D0E919E01E5CCE8E004BF1F5 /* FWSaveGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 463BAF1A1AAD2A7B00F9CC10 /* FWSaveGameViewController.xib */; };
-		D0E919E11E5CCE8E004BF1F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46330FAB18E2964100E5C7EC /* Images.xcassets */; };
-		D0E919E21E5CCE8E004BF1F5 /* patterns.dat in Resources */ = {isa = PBXBuildFile; fileRef = B3935125771F4A068BE99A04 /* patterns.dat */; };
-		D0E919E31E5CCE8E004BF1F5 /* FWGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB4510D19B542EC0040F524 /* FWGameViewController.xib */; };
-		D0E919E41E5CCE8E004BF1F5 /* FWGameSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B393542D07FDFB318986B555 /* FWGameSettingsViewController.xib */; };
-		D0E919E51E5CCE8E004BF1F5 /* cycle-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46844F7B1AED8ADC00E73FB7 /* cycle-2@2x.png */; };
-		D0E919E61E5CCE8E004BF1F5 /* FWLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 469E76851ABFA22400319877 /* FWLaunchScreen.xib */; };
-		D0E919E71E5CCE8E004BF1F5 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 464EA5661AEDEF0400E08B8E /* about.html */; };
-		D0E919E81E5CCE8E004BF1F5 /* cycle-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46844F7A1AED8ADC00E73FB7 /* cycle-1@2x.png */; };
-		D0E919E91E5CCE8E004BF1F5 /* FWQuickPlayMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD89B6678BDA714B57E7F8 /* FWQuickPlayMenuController.xib */; };
-		D0E919EA1E5CCE8E004BF1F5 /* FWEditSavedGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD84407110B7542EC437A6 /* FWEditSavedGameViewController.xib */; };
-		D0E919EB1E5CCE8E004BF1F5 /* FWLaunchScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD8D54F5A43C9B1B468EB5 /* FWLaunchScreenViewController.xib */; };
-		D0E919EC1E5CCE8E004BF1F5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46DFD8FB1ABFD39000AD8E43 /* Localizable.strings */; };
-		D0E919ED1E5CCE8E004BF1F5 /* normalize.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 464EA5621AEDEDD100E08B8E /* normalize.min.css */; };
-		D0E919EE1E5CCE8E004BF1F5 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A6BD8FB065F12CE98CAFE2ED /* style.css */; };
-		D0E919EF1E5CCE8E004BF1F5 /* FWAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD83F1A46518921715C6A8 /* FWAboutViewController.xib */; };
-		D0E919F01E5CCE8E004BF1F5 /* FWSavedGamePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD87FD288D97A5A1544EC4 /* FWSavedGamePickerViewController.xib */; };
-		D0E919F11E5CCE8E004BF1F5 /* FWPatternPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6BD8134B1159BEAFE694FC5 /* FWPatternPickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -340,9 +201,6 @@
 		B3935FB0A3013699512FCC9B /* FWGameToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGameToolbar.h; sourceTree = "<group>"; };
 		D002909D1E675A1B0068EF2F /* ppconfig.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ppconfig.yaml; sourceTree = SOURCE_ROOT; };
 		D002909F1E675A540068EF2F /* symbols.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = symbols.map; sourceTree = SOURCE_ROOT; };
-		D0E919571E5CCCC0004BF1F5 /* Build and Analyze Vie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Build and Analyze Vie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0E919A61E5CCD64004BF1F5 /* Apply Renaming to Vie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apply Renaming to Vie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0E919F51E5CCE8E004BF1F5 /* Unobfuscated Vie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unobfuscated Vie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -356,32 +214,6 @@
 				46330F9C18E2964100E5C7EC /* CoreGraphics.framework in Frameworks */,
 				46330F9E18E2964100E5C7EC /* UIKit.framework in Frameworks */,
 				46330F9A18E2964100E5C7EC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0E9193A1E5CCCC0004BF1F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0E9193B1E5CCCC0004BF1F5 /* Security.framework in Frameworks */,
-				D0E9193C1E5CCCC0004BF1F5 /* SystemConfiguration.framework in Frameworks */,
-				D0E9193D1E5CCCC0004BF1F5 /* CoreData.framework in Frameworks */,
-				D0E9193E1E5CCCC0004BF1F5 /* CoreGraphics.framework in Frameworks */,
-				D0E9193F1E5CCCC0004BF1F5 /* UIKit.framework in Frameworks */,
-				D0E919401E5CCCC0004BF1F5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0E919D81E5CCE8E004BF1F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0E919D91E5CCE8E004BF1F5 /* Security.framework in Frameworks */,
-				D0E919DA1E5CCE8E004BF1F5 /* SystemConfiguration.framework in Frameworks */,
-				D0E919DB1E5CCE8E004BF1F5 /* CoreData.framework in Frameworks */,
-				D0E919DC1E5CCE8E004BF1F5 /* CoreGraphics.framework in Frameworks */,
-				D0E919DD1E5CCE8E004BF1F5 /* UIKit.framework in Frameworks */,
-				D0E919DE1E5CCE8E004BF1F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,9 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				46330F9618E2964100E5C7EC /* Vie.app */,
-				D0E919571E5CCCC0004BF1F5 /* Build and Analyze Vie.app */,
-				D0E919A61E5CCD64004BF1F5 /* Apply Renaming to Vie.app */,
-				D0E919F51E5CCE8E004BF1F5 /* Unobfuscated Vie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -665,56 +494,6 @@
 			productReference = 46330F9618E2964100E5C7EC /* Vie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D0E9190B1E5CCCC0004BF1F5 /* Build and Analyze Vie */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0E919541E5CCCC0004BF1F5 /* Build configuration list for PBXNativeTarget "Build and Analyze Vie" */;
-			buildPhases = (
-				D0E9190C1E5CCCC0004BF1F5 /* Sources */,
-				D0E9193A1E5CCCC0004BF1F5 /* Frameworks */,
-				D0E919411E5CCCC0004BF1F5 /* Resources */,
-				D0E919591E5CCCFC004BF1F5 /* Analyze Binary */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Build and Analyze Vie";
-			productName = Vie;
-			productReference = D0E919571E5CCCC0004BF1F5 /* Build and Analyze Vie.app */;
-			productType = "com.apple.product-type.application";
-		};
-		D0E9195A1E5CCD64004BF1F5 /* Apply Renaming to Vie */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0E919A31E5CCD64004BF1F5 /* Build configuration list for PBXNativeTarget "Apply Renaming to Vie" */;
-			buildPhases = (
-				D0E919A81E5CCD91004BF1F5 /* Apply Renaming to Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Apply Renaming to Vie";
-			productName = Vie;
-			productReference = D0E919A61E5CCD64004BF1F5 /* Apply Renaming to Vie.app */;
-			productType = "com.apple.product-type.application";
-		};
-		D0E919A91E5CCE8E004BF1F5 /* Unobfuscated Vie */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0E919F21E5CCE8E004BF1F5 /* Build configuration list for PBXNativeTarget "Unobfuscated Vie" */;
-			buildPhases = (
-				D0E919AA1E5CCE8E004BF1F5 /* Sources */,
-				D0E919D81E5CCE8E004BF1F5 /* Frameworks */,
-				D0E919DF1E5CCE8E004BF1F5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Unobfuscated Vie";
-			productName = Vie;
-			productReference = D0E919F51E5CCE8E004BF1F5 /* Unobfuscated Vie.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -739,9 +518,6 @@
 			projectRoot = "";
 			targets = (
 				46330F9518E2964100E5C7EC /* Vie */,
-				D0E9190B1E5CCCC0004BF1F5 /* Build and Analyze Vie */,
-				D0E9195A1E5CCD64004BF1F5 /* Apply Renaming to Vie */,
-				D0E919A91E5CCE8E004BF1F5 /* Unobfuscated Vie */,
 			);
 		};
 /* End PBXProject section */
@@ -765,7 +541,6 @@
 				A6BD8DC37BF764309C748FE4 /* FWLaunchScreenViewController.xib in Resources */,
 				46DFD8F91ABFD39000AD8E43 /* Localizable.strings in Resources */,
 				464EA5631AEDEDD100E08B8E /* normalize.min.css in Resources */,
-				D002909E1E675A1B0068EF2F /* ppconfig.yaml in Resources */,
 				46844F791AED4FCA00E73FB7 /* style.css in Resources */,
 				A6BD8044BFE801A0B7B5B657 /* FWAboutViewController.xib in Resources */,
 				A6BD889B5DA300DFCDC3A427 /* FWSavedGamePickerViewController.xib in Resources */,
@@ -773,88 +548,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0E919411E5CCCC0004BF1F5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0E919421E5CCCC0004BF1F5 /* FWSaveGameViewController.xib in Resources */,
-				D0E919431E5CCCC0004BF1F5 /* Images.xcassets in Resources */,
-				D0E919441E5CCCC0004BF1F5 /* patterns.dat in Resources */,
-				D0E919451E5CCCC0004BF1F5 /* FWGameViewController.xib in Resources */,
-				D0E919461E5CCCC0004BF1F5 /* FWGameSettingsViewController.xib in Resources */,
-				D0E919471E5CCCC0004BF1F5 /* cycle-2@2x.png in Resources */,
-				D0E919481E5CCCC0004BF1F5 /* FWLaunchScreen.xib in Resources */,
-				D0E919491E5CCCC0004BF1F5 /* about.html in Resources */,
-				D0E9194A1E5CCCC0004BF1F5 /* cycle-1@2x.png in Resources */,
-				D0E9194B1E5CCCC0004BF1F5 /* FWQuickPlayMenuController.xib in Resources */,
-				D0E9194C1E5CCCC0004BF1F5 /* FWEditSavedGameViewController.xib in Resources */,
-				D0E9194D1E5CCCC0004BF1F5 /* FWLaunchScreenViewController.xib in Resources */,
-				D0E9194E1E5CCCC0004BF1F5 /* Localizable.strings in Resources */,
-				D0E9194F1E5CCCC0004BF1F5 /* normalize.min.css in Resources */,
-				D0E919501E5CCCC0004BF1F5 /* style.css in Resources */,
-				D0E919511E5CCCC0004BF1F5 /* FWAboutViewController.xib in Resources */,
-				D0E919521E5CCCC0004BF1F5 /* FWSavedGamePickerViewController.xib in Resources */,
-				D0E919531E5CCCC0004BF1F5 /* FWPatternPickerViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0E919DF1E5CCE8E004BF1F5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0E919E01E5CCE8E004BF1F5 /* FWSaveGameViewController.xib in Resources */,
-				D0E919E11E5CCE8E004BF1F5 /* Images.xcassets in Resources */,
-				D0E919E21E5CCE8E004BF1F5 /* patterns.dat in Resources */,
-				D0E919E31E5CCE8E004BF1F5 /* FWGameViewController.xib in Resources */,
-				D0E919E41E5CCE8E004BF1F5 /* FWGameSettingsViewController.xib in Resources */,
-				D0E919E51E5CCE8E004BF1F5 /* cycle-2@2x.png in Resources */,
-				D0E919E61E5CCE8E004BF1F5 /* FWLaunchScreen.xib in Resources */,
-				D0E919E71E5CCE8E004BF1F5 /* about.html in Resources */,
-				D0E919E81E5CCE8E004BF1F5 /* cycle-1@2x.png in Resources */,
-				D0E919E91E5CCE8E004BF1F5 /* FWQuickPlayMenuController.xib in Resources */,
-				D0E919EA1E5CCE8E004BF1F5 /* FWEditSavedGameViewController.xib in Resources */,
-				D0E919EB1E5CCE8E004BF1F5 /* FWLaunchScreenViewController.xib in Resources */,
-				D0E919EC1E5CCE8E004BF1F5 /* Localizable.strings in Resources */,
-				D0E919ED1E5CCE8E004BF1F5 /* normalize.min.css in Resources */,
-				D0E919EE1E5CCE8E004BF1F5 /* style.css in Resources */,
-				D0E919EF1E5CCE8E004BF1F5 /* FWAboutViewController.xib in Resources */,
-				D0E919F01E5CCE8E004BF1F5 /* FWSavedGamePickerViewController.xib in Resources */,
-				D0E919F11E5CCE8E004BF1F5 /* FWPatternPickerViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D0E919591E5CCCFC004BF1F5 /* Analyze Binary */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Analyze Binary";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "PATH=\"${PATH}:${HOME}/Downloads/PPiOS-Rename-v1.1.0\"\n[[ \"${SDKROOT}\" == *iPhoneSimulator*.sdk* ]] && sdk=\"${SDKROOT}\" || sdk=\"${CORRESPONDING_SIMULATOR_SDK_DIR}\"\nppios-rename --analyze \\\n  --sdk-root \"${sdk}\" \\\n  -x FWSavedGamePickerViewController \\\n  -x FWPatternPickerViewController \\\n  -x FWAboutViewController \\\n  \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n";
-		};
-		D0E919A81E5CCD91004BF1F5 /* Apply Renaming to Sources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Apply Renaming to Sources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "PATH=\"${PATH}:${HOME}/Downloads/PPiOS-Rename-v1.1.0\"\nppios-rename --obfuscate-sources";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46330F9218E2964100E5C7EC /* Sources */ = {
@@ -906,110 +600,6 @@
 				A6BD8ADD381D2DD448526568 /* FWSavedGamePickerViewController.m in Sources */,
 				A6BD828CD6447FA72D079651 /* FWPatternPickerViewController.m in Sources */,
 				A6BD827814FB187EE4F05227 /* FWB3S23.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0E9190C1E5CCCC0004BF1F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0E9190D1E5CCCC0004BF1F5 /* main.m in Sources */,
-				D0E9190E1E5CCCC0004BF1F5 /* FWAppDelegate.m in Sources */,
-				D0E9190F1E5CCCC0004BF1F5 /* FWGameViewController.m in Sources */,
-				D0E919101E5CCCC0004BF1F5 /* FWSavedGameModel.m in Sources */,
-				D0E919111E5CCCC0004BF1F5 /* FWCellModel.m in Sources */,
-				D0E919121E5CCCC0004BF1F5 /* FWMainViewController.m in Sources */,
-				D0E919131E5CCCC0004BF1F5 /* FWBoardView.m in Sources */,
-				D0E919141E5CCCC0004BF1F5 /* FWBoardSizeModel.m in Sources */,
-				D0E919151E5CCCC0004BF1F5 /* FWColorSchemeModel.m in Sources */,
-				D0E919161E5CCCC0004BF1F5 /* FWRandomNumberGenerator.m in Sources */,
-				D0E919171E5CCCC0004BF1F5 /* FWSettingsManager.m in Sources */,
-				D0E919181E5CCCC0004BF1F5 /* FWUserModel.m in Sources */,
-				D0E919191E5CCCC0004BF1F5 /* UIColor+FWAppColors.m in Sources */,
-				D0E9191A1E5CCCC0004BF1F5 /* FWPatternModel.m in Sources */,
-				D0E9191B1E5CCCC0004BF1F5 /* DataModel.xcdatamodeld in Sources */,
-				D0E9191C1E5CCCC0004BF1F5 /* FWPatternLoader.m in Sources */,
-				D0E9191D1E5CCCC0004BF1F5 /* FWRleReader.m in Sources */,
-				D0E9191E1E5CCCC0004BF1F5 /* UIFont+FWAppFonts.m in Sources */,
-				D0E9191F1E5CCCC0004BF1F5 /* UIView+FWConvenience.m in Sources */,
-				D0E919201E5CCCC0004BF1F5 /* FWGameSettingsViewController.m in Sources */,
-				D0E919211E5CCCC0004BF1F5 /* FWColorTile.m in Sources */,
-				D0E919221E5CCCC0004BF1F5 /* FWSizeTile.m in Sources */,
-				D0E919231E5CCCC0004BF1F5 /* FWReflectiveTile.m in Sources */,
-				D0E919241E5CCCC0004BF1F5 /* FWGameSpeed.m in Sources */,
-				D0E919251E5CCCC0004BF1F5 /* FWSpeedTile.m in Sources */,
-				D0E919261E5CCCC0004BF1F5 /* FWTitleBar.m in Sources */,
-				D0E919271E5CCCC0004BF1F5 /* FWGameToolbar.m in Sources */,
-				D0E919281E5CCCC0004BF1F5 /* FWMenuTile.m in Sources */,
-				D0E919291E5CCCC0004BF1F5 /* FWPatternCollectionViewCell.m in Sources */,
-				D0E9192A1E5CCCC0004BF1F5 /* FWTextField.m in Sources */,
-				D0E9192B1E5CCCC0004BF1F5 /* UIScrollView+FWConvenience.m in Sources */,
-				D0E9192C1E5CCCC0004BF1F5 /* FWDataManager.m in Sources */,
-				D0E9192D1E5CCCC0004BF1F5 /* FWPatternManager.m in Sources */,
-				D0E9192E1E5CCCC0004BF1F5 /* FWSaveGameViewController.m in Sources */,
-				D0E9192F1E5CCCC0004BF1F5 /* UIImage+FWConvenience.m in Sources */,
-				D0E919301E5CCCC0004BF1F5 /* FWSavedGameManager.m in Sources */,
-				D0E919311E5CCCC0004BF1F5 /* FWSavedGameCollectionViewCell.m in Sources */,
-				D0E919321E5CCCC0004BF1F5 /* FWQuickPlayMenuViewController.m in Sources */,
-				D0E919331E5CCCC0004BF1F5 /* FWEditSavedGameViewController.m in Sources */,
-				D0E919341E5CCCC0004BF1F5 /* FWDeleteButton.m in Sources */,
-				D0E919351E5CCCC0004BF1F5 /* FWLaunchScreenViewController.m in Sources */,
-				D0E919361E5CCCC0004BF1F5 /* FWAboutViewController.m in Sources */,
-				D0E919371E5CCCC0004BF1F5 /* FWSavedGamePickerViewController.m in Sources */,
-				D0E919381E5CCCC0004BF1F5 /* FWPatternPickerViewController.m in Sources */,
-				D0E919391E5CCCC0004BF1F5 /* FWB3S23.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0E919AA1E5CCE8E004BF1F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0E919AB1E5CCE8E004BF1F5 /* main.m in Sources */,
-				D0E919AC1E5CCE8E004BF1F5 /* FWAppDelegate.m in Sources */,
-				D0E919AD1E5CCE8E004BF1F5 /* FWGameViewController.m in Sources */,
-				D0E919AE1E5CCE8E004BF1F5 /* FWSavedGameModel.m in Sources */,
-				D0E919AF1E5CCE8E004BF1F5 /* FWCellModel.m in Sources */,
-				D0E919B01E5CCE8E004BF1F5 /* FWMainViewController.m in Sources */,
-				D0E919B11E5CCE8E004BF1F5 /* FWBoardView.m in Sources */,
-				D0E919B21E5CCE8E004BF1F5 /* FWBoardSizeModel.m in Sources */,
-				D0E919B31E5CCE8E004BF1F5 /* FWColorSchemeModel.m in Sources */,
-				D0E919B41E5CCE8E004BF1F5 /* FWRandomNumberGenerator.m in Sources */,
-				D0E919B51E5CCE8E004BF1F5 /* FWSettingsManager.m in Sources */,
-				D0E919B61E5CCE8E004BF1F5 /* FWUserModel.m in Sources */,
-				D0E919B71E5CCE8E004BF1F5 /* UIColor+FWAppColors.m in Sources */,
-				D0E919B81E5CCE8E004BF1F5 /* FWPatternModel.m in Sources */,
-				D0E919B91E5CCE8E004BF1F5 /* DataModel.xcdatamodeld in Sources */,
-				D0E919BA1E5CCE8E004BF1F5 /* FWPatternLoader.m in Sources */,
-				D0E919BB1E5CCE8E004BF1F5 /* FWRleReader.m in Sources */,
-				D0E919BC1E5CCE8E004BF1F5 /* UIFont+FWAppFonts.m in Sources */,
-				D0E919BD1E5CCE8E004BF1F5 /* UIView+FWConvenience.m in Sources */,
-				D0E919BE1E5CCE8E004BF1F5 /* FWGameSettingsViewController.m in Sources */,
-				D0E919BF1E5CCE8E004BF1F5 /* FWColorTile.m in Sources */,
-				D0E919C01E5CCE8E004BF1F5 /* FWSizeTile.m in Sources */,
-				D0E919C11E5CCE8E004BF1F5 /* FWReflectiveTile.m in Sources */,
-				D0E919C21E5CCE8E004BF1F5 /* FWGameSpeed.m in Sources */,
-				D0E919C31E5CCE8E004BF1F5 /* FWSpeedTile.m in Sources */,
-				D0E919C41E5CCE8E004BF1F5 /* FWTitleBar.m in Sources */,
-				D0E919C51E5CCE8E004BF1F5 /* FWGameToolbar.m in Sources */,
-				D0E919C61E5CCE8E004BF1F5 /* FWMenuTile.m in Sources */,
-				D0E919C71E5CCE8E004BF1F5 /* FWPatternCollectionViewCell.m in Sources */,
-				D0E919C81E5CCE8E004BF1F5 /* FWTextField.m in Sources */,
-				D0E919C91E5CCE8E004BF1F5 /* UIScrollView+FWConvenience.m in Sources */,
-				D0E919CA1E5CCE8E004BF1F5 /* FWDataManager.m in Sources */,
-				D0E919CB1E5CCE8E004BF1F5 /* FWPatternManager.m in Sources */,
-				D0E919CC1E5CCE8E004BF1F5 /* FWSaveGameViewController.m in Sources */,
-				D0E919CD1E5CCE8E004BF1F5 /* UIImage+FWConvenience.m in Sources */,
-				D0E919CE1E5CCE8E004BF1F5 /* FWSavedGameManager.m in Sources */,
-				D0E919CF1E5CCE8E004BF1F5 /* FWSavedGameCollectionViewCell.m in Sources */,
-				D0E919D01E5CCE8E004BF1F5 /* FWQuickPlayMenuViewController.m in Sources */,
-				D0E919D11E5CCE8E004BF1F5 /* FWEditSavedGameViewController.m in Sources */,
-				D0E919D21E5CCE8E004BF1F5 /* FWDeleteButton.m in Sources */,
-				D0E919D31E5CCE8E004BF1F5 /* FWLaunchScreenViewController.m in Sources */,
-				D0E919D41E5CCE8E004BF1F5 /* FWAboutViewController.m in Sources */,
-				D0E919D51E5CCE8E004BF1F5 /* FWSavedGamePickerViewController.m in Sources */,
-				D0E919D61E5CCE8E004BF1F5 /* FWPatternPickerViewController.m in Sources */,
-				D0E919D71E5CCE8E004BF1F5 /* FWB3S23.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1136,12 +726,7 @@
 				INFOPLIST_FILE = "Vie/Vie-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = (
-					"-ppconfig=ppconfig.yaml",
-					"-ppios-rename-map=symbols.map",
-					"-mllvm",
-					"-debug-only=trace",
-				);
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = github.preemptive.Vie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1165,141 +750,7 @@
 				INFOPLIST_FILE = "Vie/Vie-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = (
-					"-ppconfig=ppconfig.yaml",
-					"-ppios-rename-map=symbols.map",
-					"-mllvm",
-					"-debug-only=trace",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = github.preemptive.Vie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		D0E919551E5CCCC0004BF1F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
-				INFOPLIST_FILE = "Vie/Build and Analyze Vie-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = github.preemptive.Vie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		D0E919561E5CCCC0004BF1F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
-				INFOPLIST_FILE = "Vie/Build and Analyze Vie-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = github.preemptive.Vie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		D0E919A41E5CCD64004BF1F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
-				INFOPLIST_FILE = "Vie/Apply Renaming to Vie-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = github.preemptive.Vie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		D0E919A51E5CCD64004BF1F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
-				INFOPLIST_FILE = "Vie/Apply Renaming to Vie-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = github.preemptive.Vie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		D0E919F31E5CCE8E004BF1F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
-				INFOPLIST_FILE = "Vie/Unobfuscated Vie-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = github.preemptive.Vie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		D0E919F41E5CCE8E004BF1F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vie/Vie-Prefix.pch";
-				INFOPLIST_FILE = "Vie/Unobfuscated Vie-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = github.preemptive.Vie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1325,33 +776,6 @@
 			buildConfigurations = (
 				46330FC318E2964100E5C7EC /* Debug */,
 				46330FC418E2964100E5C7EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0E919541E5CCCC0004BF1F5 /* Build configuration list for PBXNativeTarget "Build and Analyze Vie" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0E919551E5CCCC0004BF1F5 /* Debug */,
-				D0E919561E5CCCC0004BF1F5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0E919A31E5CCD64004BF1F5 /* Build configuration list for PBXNativeTarget "Apply Renaming to Vie" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0E919A41E5CCD64004BF1F5 /* Debug */,
-				D0E919A51E5CCD64004BF1F5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0E919F21E5CCE8E004BF1F5 /* Build configuration list for PBXNativeTarget "Unobfuscated Vie" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0E919F31E5CCE8E004BF1F5 /* Debug */,
-				D0E919F41E5CCE8E004BF1F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
